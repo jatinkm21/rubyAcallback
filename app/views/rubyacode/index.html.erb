@@ -1,0 +1,8 @@
+<h1>Ruby code A</h1><br>
+<%= form_with url: rubyb_path, local: true, method: :post  do|t| %>
+    <%= t.label "enter first value "%>
+    <%= t.text_field "value1" %><br>
+    <%= t.label "enter second value " %>
+    <%= t.text_field "value2" %>
+    <%= t.submit "submit"%>
+<% end %>
